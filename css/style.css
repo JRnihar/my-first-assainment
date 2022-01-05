@@ -1,0 +1,106 @@
+body {
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+.focused {
+    display: flex;
+    margin-top: 100px;
+}
+
+.width {
+    width: 50%;
+    padding-left: 50px;
+}
+
+.width img {
+    width: 80%;
+    margin-bottom: 30px;
+}
+
+button {
+    background: rgb(236, 153, 43);
+    border-radius: 10px;
+    color: white;
+    padding: 3%;
+}
+
+h2 {
+    color: rgb(237, 155, 100);
+    font-size: 40px;
+}
+
+h1 {
+    font-size: 50px;
+}
+
+.border-slice {
+    border-left: 7px solid;
+    border-image: linear-gradient(rgb(251, 175, 253), rgb(45, 221, 104));
+    border-image-slice: 1;
+    padding-left: 10px;
+}
+
+small {
+    display: block;
+    margin-top: 20px;
+}
+
+.headding {
+    text-align: center;
+}
+
+.my-mission {
+    display: flex;
+    justify-content: space-around;
+}
+
+.mission {
+    width: 300px;
+    border-radius: 5px;
+}
+
+.picture {
+    width: 100%;
+}
+
+.my-mission {
+    text-align: center;
+    width: 90%;
+    margin: auto;
+    padding: 50px;
+}
+
+.card {
+    width: 300px;
+    border-radius: 5px;
+    box-shadow: 4px 4px 12px gray;
+    padding: 20px;
+    height: auto
+}
+
+.photo img {
+    width: 100%;
+}
+
+.second-part {
+    padding: 10px;
+}
+
+.wishes {
+    display: flex;
+    padding: 20px;
+    justify-content: space-around;
+}
+
+.description {
+    text-align: left;
+}
+
+footer {
+    text-align: center;
+    background: rgb(0, 0, 0);
+    padding: 10px;
+    color: rgba(255, 255, 255, 0.849);
+}
