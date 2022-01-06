@@ -65,22 +65,33 @@ small {
 
 .wishes {
     display: flex;
-    justify-content: space-around;
+    text-align: center;
 }
 
 .card {
     width: 30%;
+    margin-left: 100px;
     border-radius: 20px;
-    padding: 10px;
-    margin: 2rm;
+}
+
+.card img {
+    width: 50%;
+}
+
+.card-item1 {
+    background: rgb(210, 240, 180);
+}
+
+.card-item2 {
+    background: rgb(157, 190, 250);
+}
+
+.card-item3 {
+    background: rgb(242, 248, 185);
 }
 
 .photo img {
     width: 80%;
-}
-
-.second-part {
-    padding: 10px;
 }
 
 footer {
