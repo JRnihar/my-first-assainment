@@ -1,6 +1,5 @@
 body {
     margin: 0;
-    box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
 }
 
@@ -23,12 +22,7 @@ button {
     background: rgb(236, 153, 43);
     border-radius: 10px;
     color: white;
-    padding: 3%;
-}
-
-h2 {
-    color: rgb(237, 155, 100);
-    font-size: 40px;
+    padding: 2%;
 }
 
 h1 {
@@ -67,35 +61,26 @@ small {
 
 .my-mission {
     text-align: center;
-    width: 90%;
-    margin: auto;
-    padding: 50px;
-}
-
-.card {
-    width: 300px;
-    border-radius: 5px;
-    box-shadow: 4px 4px 12px gray;
-    padding: 20px;
-    height: auto
-}
-
-.photo img {
-    width: 100%;
-}
-
-.second-part {
-    padding: 10px;
 }
 
 .wishes {
     display: flex;
-    padding: 20px;
     justify-content: space-around;
 }
 
-.description {
-    text-align: left;
+.card {
+    width: 30%;
+    border-radius: 20px;
+    padding: 10px;
+    margin: 2rm;
+}
+
+.photo img {
+    width: 80%;
+}
+
+.second-part {
+    padding: 10px;
 }
 
 footer {
@@ -103,4 +88,27 @@ footer {
     background: rgb(0, 0, 0);
     padding: 10px;
     color: rgba(255, 255, 255, 0.849);
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Red Hat Mono', monospace;
+}
+
+#photo-1 {
+    width: 500px;
+}
+
+#top-banner {
+    width: 200px;
+    margin-bottom: 100px;
+}
+
+#bg-1 {
+    background: rgb(245, 231, 231);
+}
+
+#bg-2 {
+    background: rgb(201, 243, 189);
+}
+
+#bg-3 {
+    background: rgb(236, 155, 155);
 }
