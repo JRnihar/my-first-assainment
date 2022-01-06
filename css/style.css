@@ -45,7 +45,7 @@ small {
     text-align: center;
 }
 
-.my-mission {
+.container {
     display: flex;
     justify-content: space-around;
 }
@@ -63,7 +63,7 @@ small {
     text-align: center;
 }
 
-.wishes {
+.card-body {
     display: flex;
     text-align: center;
 }
@@ -90,8 +90,17 @@ small {
     background: rgb(242, 248, 185);
 }
 
+.description {
+    text-align: justify;
+    padding: 0px 20px;
+}
+
 .photo img {
     width: 80%;
+}
+
+#photo-1 {
+    width: 500px;
 }
 
 footer {
@@ -101,25 +110,4 @@ footer {
     color: rgba(255, 255, 255, 0.849);
     font-family: 'Poppins', sans-serif;
     font-family: 'Red Hat Mono', monospace;
-}
-
-#photo-1 {
-    width: 500px;
-}
-
-#top-banner {
-    width: 200px;
-    margin-bottom: 100px;
-}
-
-#bg-1 {
-    background: rgb(245, 231, 231);
-}
-
-#bg-2 {
-    background: rgb(201, 243, 189);
-}
-
-#bg-3 {
-    background: rgb(236, 155, 155);
 }
